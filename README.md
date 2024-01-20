@@ -1,6 +1,6 @@
 # Schedule Request Form
 
-This repository contains a web-based form template designed to streamline and simplify the scheduling process for companies. The goal is to empower representatives to effortlessly request and select their preferred work schedules.
+This repository contains a web-based form template designed to streamline and simplify the scheduling process for workforce management. The goal is to empower representatives to effortlessly request and select their preferred work schedules.
 
 ## Features
 
