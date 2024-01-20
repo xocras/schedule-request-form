@@ -45,6 +45,7 @@ body {
   height: 100vh;
   padding: 32px 0;
   margin: 0;
+  overflow-y: hidden;
 
   background-image: url("../rsc/background.jpg");
   background-size: cover;
