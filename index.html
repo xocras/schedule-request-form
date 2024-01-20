@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule Request Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <img
+          class="company-logo"
+          src="rsc/company-logo.jpg"
+          alt="Company Logo"
+        />
+        <h1>Default Department</h1>
+        <h2>Schedule Request Form</h2>
+        <p>
+          This form was designed to streamline and simplify the scheduling
+          process for representatives within our department, empowerering them
+          to effortlessly request and select their preferred work schedules.
+        </p>
+        <h3>Choose an option below:</h3>
+        <form action="#">
+          <div class="custom-dropdown">
+            <select name="schedule" id="schedule-selector"></select>
+          </div>
+          <p>Current Availability: <span id="availability">0/500</span></p>
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>Made with <span class="red">&#9829;</span> by Oscar Cruz</footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
