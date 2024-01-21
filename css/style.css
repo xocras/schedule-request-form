@@ -119,8 +119,7 @@ select + p {
 
 form input {
   display: inline-block;
-  margin-top: 16px;
-  margin-bottom: 8px;
+  margin: 8px 0;
   padding: 4px 0;
 
   width: 80%;
